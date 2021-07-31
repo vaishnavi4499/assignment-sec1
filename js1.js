@@ -11,7 +11,8 @@
 
 <script>
 var y = 5;
-var x = ++y;
+var x = y++;
+
 document.getElementById("demo1").innerHTML = y;
 document.getElementById("demo2").innerHTML = x;
 </script>
